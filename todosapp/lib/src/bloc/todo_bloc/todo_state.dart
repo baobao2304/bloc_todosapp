@@ -1,7 +1,7 @@
 
 import 'package:equatable/equatable.dart';
 
-import '../model/todo.dart';
+import '../../model/todo.dart';
 
 enum TodosOverviewStatus { initial, loading, success, failure }
 

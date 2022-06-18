@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../bloc/todo_bloc.dart';
-import '../bloc/todo_event.dart';
-import '../bloc/todo_state.dart';
+import '../bloc/todo_bloc/todo_bloc.dart';
+import '../bloc/todo_bloc/todo_event.dart';
+import '../bloc/todo_bloc/todo_state.dart';
 import '../data/todo_repository.dart';
 import 'components/todo_listtitle.dart';
 import 'edit_todo_page.dart';

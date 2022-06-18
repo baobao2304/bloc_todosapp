@@ -8,8 +8,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../bloc/edittodo_bloc/edit_todo_bloc.dart';
 import '../bloc/edittodo_bloc/edit_todo_event.dart';
 import '../bloc/edittodo_bloc/edit_todo_state.dart';
-import '../bloc/todo_bloc.dart';
-import '../bloc/todo_event.dart';
+import '../bloc/todo_bloc/todo_bloc.dart';
+import '../bloc/todo_bloc/todo_event.dart';
 import '../data/todo_repository.dart';
 import '../model/todo.dart';
 

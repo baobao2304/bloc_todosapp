@@ -1,9 +1,9 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todosapp/src/bloc/todo_event.dart';
-import 'package:todosapp/src/bloc/todo_state.dart';
+import 'package:todosapp/src/bloc/todo_bloc/todo_event.dart';
+import 'package:todosapp/src/bloc/todo_bloc/todo_state.dart';
 
-import '../data/todo_repository.dart';
-import '../model/todo.dart';
+import '../../data/todo_repository.dart';
+import '../../model/todo.dart';
 
 class TodosOverviewBloc extends Bloc<TodosOverviewEvent, TodosOverviewState> {
   TodosOverviewBloc({
